@@ -1,6 +1,6 @@
 ^         # begin string
 \s*       # optionele whitespace
-repo      # letterlijk eerste antwoord
+[rR]epo   # letterlijk eerste antwoord
 \s*       # optionele whitespace
 git\ init # tweede antwoord
 \s*       # optionele whitespace
