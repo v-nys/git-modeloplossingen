@@ -1,0 +1,5 @@
+^                       # begin string
+\s*                     # optionele whitespace
+[Ff]ast[\ \-][Ff]orward # de essentie; schrijfwijze kan misschien verschillen in andere versies
+\s*                     # optionele whitespace
+$                       # einde string

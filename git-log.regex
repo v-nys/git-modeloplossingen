@@ -1,0 +1,9 @@
+^                     # begin string
+\s*                   # optionele whitespace
+[cC]ommit\ [hH]ash    # eerste antwoord
+\s*                   # optionele whitespace
+git\ commit           # tweede antwoord
+\s*                   # optionele whitespace
+[cC]ommit\ [mM]essage # eerste antwoord
+\s*                   # optionele whitespace
+$                     # einde string

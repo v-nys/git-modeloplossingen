@@ -1,0 +1,7 @@
+^                   # begin string
+\s*                 # optionele whitespace
+[sS]taging\ [aA]rea # eerste antwoord, deels hoofdletterongevoelig
+\s*                 # optionele whitespace
+[nN]een?            # tweede antwoord, deels hoofdletterongevoelig
+\s*                 # optionele whitespace
+$                   # einde string
