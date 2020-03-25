@@ -1,3 +1,4 @@
 ^                                           # begin string
 de\ kat\ krabt\ de\ krollen\ van\ de\ trap! # verwachte inhoud
+\s*                                         # optionele whitespace
 $                                           # einde string
