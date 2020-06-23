@@ -1,5 +1,5 @@
-^                                # begin string
-\s*                              # optionele whitespace
-https://git\-scm\.com/book/nl/v2 # de link
-\s*                              # optionele whitespace
-$                                # einde string
+^                                   # begin string
+\s*                                 # optionele whitespace
+https://git\-scm\.com/book/(!nl)/v2 # link voor foute taal
+\s*                                 # optionele whitespace
+$                                   # einde string
