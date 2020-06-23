@@ -1,3 +1,5 @@
 ^                                # begin string
 \s*                              # optionele whitespace
 https://git\-scm\.com/book/(!nl) # link voor foute taal, **alles** behalve deze twee letters samen matcht (tot einde string)
+.*
+$
