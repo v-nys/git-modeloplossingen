@@ -1,5 +1,7 @@
-^                                # begin string
-\s*                              # optionele whitespace
-https://git\-scm\.com/book/(!nl) # link voor foute taal, **alles** behalve deze twee letters samen matcht (tot einde string)
-.*
+^                           # begin string
+\s*                         # optionele whitespace
+https://git\-scm\.com/book/ # basis link
+([^n].+|n[^l].*|nl[^/].+)   # gewoon geen 'nl', alle andere niet-lege sequenties zijn oké
+/v2                         # vervolg link
+\s*                         # eventueel nog wat whitespace
 $
